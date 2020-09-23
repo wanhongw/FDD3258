@@ -15,9 +15,6 @@ return ( (double) tp.tv_sec + (double) tp.tv_usec * 1.e-6 );
 
 void main()
 {
-
-omp_set_num_threads(number_of_threads);
-
     double tStart, tEnd;
     double x[1000000],t;
     tStart = mysecond();
